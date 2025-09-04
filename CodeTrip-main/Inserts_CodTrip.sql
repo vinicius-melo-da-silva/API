@@ -263,3 +263,12 @@ INSERT INTO Tipo_Hospedagem VALUES (NULL, 'Quadruplo (Solteiro)', 4, 300.00);
 INSERT INTO Tipo_Hospedagem VALUES (NULL, 'Família', 6, 400.00);
 INSERT INTO Tipo_Hospedagem VALUES (NULL, 'Corporativo Single', 1, 130.00);
 INSERT INTO Tipo_Hospedagem VALUES (NULL, 'Corporativo Double', 2, 150.00);
+
+-- Insertes Usuários
+INSERT INTO Usuario (Nome_Usuario, Email_Usuario, Senha_Usuario)
+VALUES 
+('Ana Souza', 'ana.souza@example.com', 'senha123'),
+('Carlos Lima', 'carlos.lima@example.com', '1234abcd'),
+('Mariana Silva', 'mariana.silva@example.com', 'senhaSegura@2025'),
+('João Pereira', 'joao.pereira@example.com', 'joao1234'),
+('Beatriz Costa', 'beatriz.costa@example.com', 'minhaSenha456');
